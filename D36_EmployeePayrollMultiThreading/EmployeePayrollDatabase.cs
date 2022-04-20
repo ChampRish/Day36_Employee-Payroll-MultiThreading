@@ -111,11 +111,11 @@ namespace D36_EmployeePayrollMultiThreading
                 var result = command.ExecuteNonQuery();
                 if (result != 0)
                 {
-                    Console.WriteLine("Employee Details added in Database");
+                    Console.WriteLine("Employee Details Added in Database");
                 }
                 else
                 {
-                    Console.WriteLine("Employee Details not added in Database");
+                    Console.WriteLine("Employee Details not Added in Database");
                 }
             }
             catch (Exception ex)
